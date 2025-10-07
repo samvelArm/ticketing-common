@@ -4,10 +4,11 @@
     "rootDir": "./src",
     "outDir": "./build",
     "declaration": true,
-    "target": "es5",
+    "target": "es2016",
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
     "strict": true
   }
 }
