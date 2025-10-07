@@ -1,3 +1,6 @@
+// Re-export global type extensions
+import './middlewares/current-user';
+
 // Export all error classes
 export { BadRequestError } from './errors/bad-request-error';
 export { CustomError } from './errors/custom-error';
