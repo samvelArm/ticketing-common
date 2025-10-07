@@ -1,16 +1,14 @@
 {
   "compilerOptions": {
+    /* Language and Environment */
     "rootDir": "./src",
     "outDir": "./build",
     "declaration": true,
-    "target": "es2020",
+    "target": "es5",
+    /* Modules */
     "module": "commonjs",
-    "moduleResolution": "node",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
     "strict": true
-  },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  }
 }
