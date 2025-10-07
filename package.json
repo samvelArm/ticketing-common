@@ -4,6 +4,13 @@
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./build/index.js",
+      "types": "./build/index.d.ts"
+    }
+  },
   "files": [
     "build/**.*"
   ],
