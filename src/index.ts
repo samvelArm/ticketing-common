@@ -1,13 +1,13 @@
 // Export all error classes
-export * from './errors/bad-request-error';
-export * from './errors/custom-error';
-export * from './errors/database-connection-error';
-export * from './errors/not-authorized-error';
-export * from './errors/not-found-error';
-export * from './errors/request-validation-error';
+export { BadRequestError } from './errors/bad-request-error';
+export { CustomError } from './errors/custom-error';
+export { DatabaseConnectionError } from './errors/database-connection-error';
+export { NotAuthorizedError } from './errors/not-authorized-error';
+export { NotFoundError } from './errors/not-found-error';
+export { RequestValidationError } from './errors/request-validation-error';
 
 // Export all middleware functions
-export * from './middlewares/current-user';
-export * from './middlewares/error-handler';
-export * from './middlewares/require-auth';
-export * from './middlewares/validate-request';
+export { currentUser } from './middlewares/current-user';
+export { errorHandler } from './middlewares/error-handler';
+export { requireAuth } from './middlewares/require-auth';
+export { validateRequest } from './middlewares/validate-request';
