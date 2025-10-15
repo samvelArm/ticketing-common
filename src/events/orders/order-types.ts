@@ -9,6 +9,7 @@ export interface OrderCreated {
     id: string;
     price: number;
   };
+  version: number;
 }
 
 export interface OrderCancelled {
@@ -16,4 +17,5 @@ export interface OrderCancelled {
   ticket: {
     id: string;
   };
+  version: number;
 }
