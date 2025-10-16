@@ -4,4 +4,5 @@ export interface Ticket {
   price: number;
   userId: string;
   version: number;
+  orderId?: string;
 }
